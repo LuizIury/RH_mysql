@@ -19,7 +19,7 @@ VALUES ("João", "2001-01-24", 34528467598, 1800, "Estagiário"),
 ("Lara", "2001-01-24", 98723645692, 1300, "Aux. Escritório"),
 ("Estela", "2001-01-24", 85738594812, 2050, "Desenvolvedora Jr.");
 
-SELECT * FROM tb_colaboradores WHERE salario < 2000;
+SELECT * FROM tb_colaboradores WHERE salario > 2000;
 
 
 
